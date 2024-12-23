@@ -1,0 +1,143 @@
+/* @import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities'; */
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.primary-gradient {
+    background: rgb(150, 0, 0);
+    background: linear-gradient(
+        90deg,
+        rgba(150, 0, 0, 0.9763947815454307) 0%,
+        rgba(183, 0, 0, 0.7747141092765231) 35%,
+        rgba(225, 0, 0, 0.6626692913493523) 100%
+    );
+}
+
+.accent-gradient,
+#accent-gradient {
+    background: linear-gradient(
+        129deg,
+        #edab00 14.31%,
+        rgba(251, 179, 24, 0.7) 54.82%
+    );
+}
+
+.main-gradient {
+    background: linear-gradient(
+        125deg,
+        rgba(144, 0, 0, 1) 0%,
+        rgba(255, 0, 0, 1) 57%
+    );
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    display: inline-block;
+    padding: 0.1em 0;
+}
+
+.solid-primary {
+    background: rgba(150, 0, 0, 0.9);
+}
+
+.primaryBTN {
+    background: linear-gradient(
+        125deg,
+        rgba(237, 171, 0, 1) 0%,
+        rgb(255, 199, 79) 27%
+    );
+}
+
+.signInButton {
+    background: linear-gradient(
+        125deg,
+        rgba(237, 171, 0, 1) 0%,
+        rgb(255, 199, 79) 27%
+    );
+}
+
+.logBG {
+    border-radius: 10px;
+    border-top: 4px solid #fff;
+    border-left: 4px solid #fff;
+    background: linear-gradient(
+            36deg,
+            rgba(150, 0, 0, 0.1) 1.16%,
+            rgba(255, 255, 255, 0) 30.83%
+        ),
+        linear-gradient(
+            146deg,
+            rgba(255, 255, 255, 0.4) 0%,
+            rgba(255, 255, 255, 0.1) 100.72%
+        );
+    box-shadow: 6px 6px 30px 0px rgba(0, 0, 0, 0.05);
+    backdrop-filter: blur(15px);
+}
+
+@layer base {
+    :root {
+        --background: 0 0% 100%;
+        --foreground: 240 10% 3.9%;
+
+        --muted: 240 4.8% 95.9%;
+        --muted-foreground: 240 3.8% 46.1%;
+
+        --popover: 0 0% 100%;
+        --popover-foreground: 240 10% 3.9%;
+
+        --card: 0 0% 100%;
+        --card-foreground: 240 10% 3.9%;
+
+        --border: 240 5.9% 90%;
+        --input: 240 5.9% 90%;
+
+        --primary: 240 5.9% 10%;
+        --primary-foreground: 0 0% 98%;
+
+        --secondary: 240 4.8% 95.9%;
+        --secondary-foreground: 240 5.9% 10%;
+
+        --accent: 240 4.8% 95.9%;
+        --accent-foreground: 240 5.9% 10%;
+
+        --destructive: 0 72.2% 50.6%;
+        --destructive-foreground: 0 0% 98%;
+
+        --ring: 240 10% 3.9%;
+
+        --radius: 0.5rem;
+    }
+
+    .dark {
+        --background: 240 10% 3.9%;
+        --foreground: 0 0% 98%;
+
+        --muted: 240 3.7% 15.9%;
+        --muted-foreground: 240 5% 64.9%;
+
+        --popover: 240 10% 3.9%;
+        --popover-foreground: 0 0% 98%;
+
+        --card: 240 10% 3.9%;
+        --card-foreground: 0 0% 98%;
+
+        --border: 240 3.7% 15.9%;
+        --input: 240 3.7% 15.9%;
+
+        --primary: 0 0% 98%;
+        --primary-foreground: 240 5.9% 10%;
+
+        --secondary: 240 3.7% 15.9%;
+        --secondary-foreground: 0 0% 98%;
+
+        --accent: 240 3.7% 15.9%;
+        --accent-foreground: 0 0% 98%;
+
+        --destructive: 0 62.8% 30.6%;
+        --destructive-foreground: 0 0% 98%;
+
+        --ring: 240 4.9% 83.9%;
+    }
+}

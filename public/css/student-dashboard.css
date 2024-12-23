@@ -1,0 +1,275 @@
+.direct-chat-text {
+    border-radius: 0.3rem;
+    background-color: #d2d6de;
+    border: 1px solid #d2d6de;
+    color: #444;
+    margin: 5px 0 0 50px;
+    padding: 5px 10px;
+    position: relative;
+}
+
+.direct-chat-name {
+    font-weight: 1000;
+    font-size: 20px;
+}
+.float-left {
+    float: left!important;
+}
+*, ::after, ::before {
+    box-sizing: border-box;
+}
+.direct-chat-infos {
+    display: block;
+    font-size: .875rem;
+    margin-bottom: 2px;
+}
+.direct-chat-timestamp {
+    color: #697582;
+}
+.float-right {
+    float: right!important;
+}
+.bg-info,
+.bg-info>a {
+    color: #fff !important;
+}
+.bg-info {
+    background-color: rgb(117, 13, 4) !important;
+}
+li{ 
+	list-style: none; 
+}
+.table-title .btn i {
+	float: left;
+	font-size: 21px;
+	margin-right: 5px;
+}
+#confirmBtn{
+    background-color: rgb(117, 13, 4);
+    color: #fff
+}
+.form-input-wide {
+    width: 100%;
+}
+.form-buttons-wrapper {
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -ms-flex-pack: center;
+    justify-content: center;
+    position: relative;
+    margin: 0 -38px 10px;
+    padding: 30px 52px;
+    border-top: 1px solid #e5e7f2;
+}
+.bg-success,
+.bg-success>a {
+    color: #fff !important;
+}
+.bg-success {
+    background-color: rgb(8, 8, 46) !important
+}
+.card-header{
+    background-color: rgb(113, 48, 56)
+}
+.card-title {
+    float: left;
+    font-size: 1.1rem;
+    font-weight: 400;
+    margin: 0;
+    color: #fff;
+}
+li{ 
+	list-style: none; 
+}
+.bg-warning,
+.bg-warning>a {
+    color: #fff !important;
+}
+.bg-warning {
+    background-color: rgb(140, 2, 0)!important;
+}
+
+.bg-danger,
+.bg-danger>a {
+    color: #fff !important;
+}
+.bg-danger {
+    background-color: rgb(128, 0, 33)!important;
+}
+
+
+.small-box {
+    border-radius: 0.25rem;
+    box-shadow: 0 0 1px rgb(0 0 0 / 13%), 0 1px 3px rgb(0 0 0 / 20%);
+    display: block;
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.small-box>.inner {
+    padding: 10px;
+}
+
+
+*,
+::after,
+::before {
+    box-sizing: border-box;
+}
+
+.small-box {
+    border-radius: .25rem;
+    box-shadow: 0 0 1px rgba(0, 0, 0, .125), 0 1px 3px rgba(0, 0, 0, .2);
+    display: block;
+    margin-bottom: 20px;
+    position: relative
+}
+
+.small-box>.inner {
+    padding: 10px
+}
+
+.small-box>.small-box-footer {
+    background-color: rgba(0, 0, 0, .1);
+    color: rgba(255, 255, 255, .8);
+    display: block;
+    padding: 3px 0;
+    position: relative;
+    text-align: center;
+    text-decoration: none;
+    z-index: 10
+}
+
+.small-box>.small-box-footer:hover {
+    background-color: rgba(0, 0, 0, .15);
+    color: #fff
+}
+
+.small-box h3 {
+    font-size: 2.2rem;
+    font-weight: 700;
+    margin: 0 0 10px;
+    padding: 0;
+    white-space: nowrap
+}
+
+@media (min-width:992px) {
+
+    .col-lg-2 .small-box h3,
+    .col-md-2 .small-box h3,
+    .col-xl-2 .small-box h3 {
+        font-size: 1.6rem
+    }
+
+    .col-lg-3 .small-box h3,
+    .col-md-3 .small-box h3,
+    .col-xl-3 .small-box h3 {
+        font-size: 1.6rem
+    }
+}
+
+@media (min-width:1200px) {
+
+    .col-lg-2 .small-box h3,
+    .col-md-2 .small-box h3,
+    .col-xl-2 .small-box h3 {
+        font-size: 2.2rem
+    }
+
+    .col-lg-3 .small-box h3,
+    .col-md-3 .small-box h3,
+    .col-xl-3 .small-box h3 {
+        font-size: 2.2rem
+    }
+}
+
+.small-box p {
+    font-size: 1rem
+}
+
+.small-box p>small {
+    color: #f8f9fa;
+    display: block;
+    font-size: .9rem;
+    margin-top: 5px
+}
+
+.small-box h3,
+.small-box p {
+    z-index: 5
+}
+
+.small-box .icon {
+    color: rgba(0, 0, 0, .15);
+    z-index: 0
+}
+
+.small-box .icon>i {
+    font-size: 90px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    transition: -webkit-transform .3s linear;
+    transition: transform .3s linear;
+    transition: transform .3s linear, -webkit-transform .3s linear
+}
+
+.small-box .icon>i.fa,
+.small-box .icon>i.fab,
+.small-box .icon>i.fad,
+.small-box .icon>i.fal,
+.small-box .icon>i.far,
+.small-box .icon>i.fas,
+.small-box .icon>i.ion {
+    font-size: 70px;
+    top: 20px
+}
+
+.small-box .icon svg {
+    font-size: 70px;
+    position: absolute;
+    right: 15px;
+    top: 15px;
+    transition: -webkit-transform .3s linear;
+    transition: transform .3s linear;
+    transition: transform .3s linear, -webkit-transform .3s linear
+}
+
+.small-box:hover {
+    text-decoration: none
+}
+
+.small-box:hover .icon>i,
+.small-box:hover .icon>i.fa,
+.small-box:hover .icon>i.fab,
+.small-box:hover .icon>i.fad,
+.small-box:hover .icon>i.fal,
+.small-box:hover .icon>i.far,
+.small-box:hover .icon>i.fas,
+.small-box:hover .icon>i.ion {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+.small-box:hover .icon>svg {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1)
+}
+
+@media (max-width:767.98px) {
+    .small-box {
+        text-align: center
+    }
+
+    .small-box .icon {
+        display: none
+    }
+
+    .small-box p {
+        font-size: 12px
+    }
+}
+
+
+
